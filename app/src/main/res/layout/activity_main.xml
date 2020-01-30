@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is an example"
+                android:layout_margin="10dp"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:text="first pic"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="305dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m3"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/textTitle"
+                    />
+
+                <TextView
+                    android:id="@+id/textTitle2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:text="the second"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="305dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m3"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/textTitle2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/textTitle3"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:text="the second"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="305dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m1"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/textTitle3"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/textTitle4"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:text="the third"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="305dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m8"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/textTitle4"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="the second part"
+                android:layout_margin="10dp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:text="the second"
+                    android:background="@color/colorPrimary"/>
+                <ImageView
+                    android:layout_width="305dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m10"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/t5"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:text="the final "
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"/>
+                <ImageView
+                    android:layout_width="3025dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/m2"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@+id/t6"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
